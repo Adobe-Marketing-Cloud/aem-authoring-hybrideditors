@@ -1,0 +1,8 @@
+div.imageimage div.image {
+    float: left;
+    margin-bottom: 8px !important;
+}
+
+div.imageimage .image_right div.image {
+    float: right !important;
+}

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/etc/designs/geometrixx/jcr:content/contentpage"/>
+    <filter root="/apps/foundation/components/imageimagetext"/>
+    <filter root="/apps/foundation/components/imageimage"/>
+    <filter root="/apps/foundation/components/texttext"/>
+</workspaceFilter>

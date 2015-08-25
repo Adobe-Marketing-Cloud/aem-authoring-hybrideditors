@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:TabPanel"
+    activeTab="0"
+    helpPath="en/cq/current/wcm/default_components.html#Image Image"
+    xtype="tabpanel">
+    <items jcr:primaryType="cq:WidgetCollection">
+        <tab1
+            jcr:primaryType="cq:Widget"
+            cropParameter="./image1/imageCrop"
+            ddGroups="[media]"
+            fileNameParameter="./image1/fileName"
+            fileReferenceParameter="./image1/fileReference"
+            mapParameter="./image1/imageMap"
+            name="./image1/file"
+            requestSuffix="/image1.img.png"
+            rotateParameter="./image1/imageRotate"
+            sizeLimit="100"
+            title="Image1"
+            xtype="html5smartimage"/>
+        <tab2
+            jcr:primaryType="cq:Widget"
+            title="Advanced Image1 Properties"
+            xtype="panel">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <title
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="Title"
+                    name="./image1/jcr:title"
+                    xtype="textfield"/>
+                <alt
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="(leave empty to use the title defined above)"
+                    fieldLabel="Alt Text"
+                    name="./image1/alt"
+                    xtype="textfield"/>
+                <linkURL
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="Drop files or pages from the Content Finder"
+                    fieldLabel="Link to"
+                    name="./image1/linkURL"
+                    xtype="pathfield"/>
+                <description
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="Description"
+                    name="./image1/jcr:description"
+                    xtype="textarea"/>
+                <size
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="Size"
+                    heightParameter="./image1/height"
+                    widthParameter="./image1/width"
+                    xtype="sizefield"/>
+                <resType
+                    jcr:primaryType="cq:Widget"
+                    ignoreData="{Boolean}true"
+                    name="./image1/sling:resourceType"
+                    value="foundation/components/image"
+                    xtype="hidden"/>
+            </items>
+        </tab2>
+        <tab3
+            jcr:primaryType="cq:Widget"
+            cropParameter="./image2/imageCrop"
+            ddGroups="[media]"
+            fileNameParameter="./image2/fileName"
+            fileReferenceParameter="./image2/fileReference"
+            mapParameter="./image2/imageMap"
+            name="./image2/file"
+            requestSuffix="/image2.img.png"
+            rotateParameter="./image2/imageRotate"
+            sizeLimit="100"
+            title="Image2"
+            xtype="html5smartimage"/>
+        <tab4
+            jcr:primaryType="cq:Widget"
+            title="Advanced Image2 Properties"
+            xtype="panel">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <title
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="Title"
+                    name="./image2/jcr:title"
+                    xtype="textfield"/>
+                <alt
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="(leave empty to use the title defined above)"
+                    fieldLabel="Alt Text"
+                    name="./image2/alt"
+                    xtype="textfield"/>
+                <linkURL
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="Drop files or pages from the Content Finder"
+                    fieldLabel="Link to"
+                    name="./image2/linkURL"
+                    xtype="pathfield"/>
+                <description
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="Description"
+                    name="./image2/jcr:description"
+                    xtype="textarea"/>
+                <size
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="Size"
+                    heightParameter="./image2/height"
+                    widthParameter="./image2/width"
+                    xtype="sizefield"/>
+                <resType
+                    jcr:primaryType="cq:Widget"
+                    ignoreData="{Boolean}true"
+                    name="./image2/sling:resourceType"
+                    value="foundation/components/image"
+                    xtype="hidden"/>
+            </items>
+        </tab4>
+        <tab5
+            jcr:primaryType="cq:Widget"
+            xtype="componentstyles"/>
+    </items>
+</jcr:root>

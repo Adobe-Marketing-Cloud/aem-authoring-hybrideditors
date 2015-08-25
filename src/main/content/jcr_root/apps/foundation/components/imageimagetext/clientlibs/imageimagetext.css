@@ -1,0 +1,12 @@
+div.imageimagetext .image div.image {
+    float: left;
+    margin-bottom: 8px !important;
+}
+
+div.imageimagetext .image_right div.image {
+    float: right !important;
+}
+
+div.imageimagetext div.text .cq-placeholder {
+    height: 1.875rem;
+}
