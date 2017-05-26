@@ -1,9 +1,6 @@
-# Adobe Experience Manager 6.1 Update Pack Extension: Inplace Smart Editors
+# Adobe Experience Manager 6.3 Extension: Inplace Smart Editors
 
 This is a sample package showing how to use smarter inplace editors in Page Authoring.
-
-The package is designed to work for AEM 6.1 update pack.
-
 
 ## Build & Install
  
